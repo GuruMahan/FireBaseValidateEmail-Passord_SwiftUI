@@ -7,10 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BB716A86CC5B6751742270 /* Pods_FireBaseValidateEmail_Passord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305354D766A85D59DFF8C763 /* Pods_FireBaseValidateEmail_Passord.framework */; };
 		18CCA288299259D400AC4694 /* FireBaseValidateEmail_PassordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA287299259D400AC4694 /* FireBaseValidateEmail_PassordApp.swift */; };
 		18CCA28A299259D400AC4694 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA289299259D400AC4694 /* ContentView.swift */; };
 		18CCA28C299259D600AC4694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CCA28B299259D600AC4694 /* Assets.xcassets */; };
 		18CCA28F299259D600AC4694 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CCA28E299259D600AC4694 /* Preview Assets.xcassets */; };
+		18CCA29629925B5C00AC4694 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18CCA29529925B5B00AC4694 /* GoogleService-Info.plist */; };
+		18CCA2982992669C00AC4694 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA2972992669C00AC4694 /* LoginView.swift */; };
+		18CCA29A299266D200AC4694 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA299299266D200AC4694 /* LoginViewModel.swift */; };
+		18CCA29C2992677000AC4694 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA29B2992677000AC4694 /* ColorExtension.swift */; };
+		18CCA29E299267A000AC4694 /* ProgressLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA29D299267A000AC4694 /* ProgressLoader.swift */; };
+		18CCA2A0299267D800AC4694 /* Extention + UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA29F299267D800AC4694 /* Extention + UserDefault.swift */; };
+		18CCA2A62992687A00AC4694 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA2A52992687A00AC4694 /* DashboardView.swift */; };
+		18CCA2A82992689B00AC4694 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA2A72992689B00AC4694 /* SideMenuView.swift */; };
+		18CCA2AA29926A0100AC4694 /* PasswordField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA2A929926A0100AC4694 /* PasswordField.swift */; };
+		18CCA2AC29926CAE00AC4694 /* TextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CCA2AB29926CAE00AC4694 /* TextFieldClearButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,19 @@
 		18CCA289299259D400AC4694 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18CCA28B299259D600AC4694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18CCA28E299259D600AC4694 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		18CCA29529925B5B00AC4694 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		18CCA2972992669C00AC4694 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		18CCA299299266D200AC4694 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		18CCA29B2992677000AC4694 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		18CCA29D299267A000AC4694 /* ProgressLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressLoader.swift; sourceTree = "<group>"; };
+		18CCA29F299267D800AC4694 /* Extention + UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extention + UserDefault.swift"; sourceTree = "<group>"; };
+		18CCA2A52992687A00AC4694 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		18CCA2A72992689B00AC4694 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		18CCA2A929926A0100AC4694 /* PasswordField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordField.swift; sourceTree = "<group>"; };
+		18CCA2AB29926CAE00AC4694 /* TextFieldClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButton.swift; sourceTree = "<group>"; };
+		305354D766A85D59DFF8C763 /* Pods_FireBaseValidateEmail_Passord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireBaseValidateEmail_Passord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		607D60D514F02363F4388CFF /* Pods-FireBaseValidateEmail$Passord.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseValidateEmail$Passord.debug.xcconfig"; path = "Target Support Files/Pods-FireBaseValidateEmail$Passord/Pods-FireBaseValidateEmail$Passord.debug.xcconfig"; sourceTree = "<group>"; };
+		9D532106798F26401706BA54 /* Pods-FireBaseValidateEmail$Passord.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireBaseValidateEmail$Passord.release.xcconfig"; path = "Target Support Files/Pods-FireBaseValidateEmail$Passord/Pods-FireBaseValidateEmail$Passord.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +50,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BB716A86CC5B6751742270 /* Pods_FireBaseValidateEmail_Passord.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15B6D0E095627D5833D8D3C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				305354D766A85D59DFF8C763 /* Pods_FireBaseValidateEmail_Passord.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1615097709E33EA8638A8041 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				607D60D514F02363F4388CFF /* Pods-FireBaseValidateEmail$Passord.debug.xcconfig */,
+				9D532106798F26401706BA54 /* Pods-FireBaseValidateEmail$Passord.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		18CCA27B299259D400AC4694 = {
 			isa = PBXGroup;
 			children = (
 				18CCA286299259D400AC4694 /* FireBaseValidateEmail$Passord */,
 				18CCA285299259D400AC4694 /* Products */,
+				1615097709E33EA8638A8041 /* Pods */,
+				15B6D0E095627D5833D8D3C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +95,18 @@
 		18CCA286299259D400AC4694 /* FireBaseValidateEmail$Passord */ = {
 			isa = PBXGroup;
 			children = (
+				18CCA29529925B5B00AC4694 /* GoogleService-Info.plist */,
 				18CCA287299259D400AC4694 /* FireBaseValidateEmail_PassordApp.swift */,
 				18CCA289299259D400AC4694 /* ContentView.swift */,
+				18CCA2AB29926CAE00AC4694 /* TextFieldClearButton.swift */,
+				18CCA2A929926A0100AC4694 /* PasswordField.swift */,
+				18CCA2972992669C00AC4694 /* LoginView.swift */,
+				18CCA299299266D200AC4694 /* LoginViewModel.swift */,
+				18CCA2A52992687A00AC4694 /* DashboardView.swift */,
+				18CCA2A72992689B00AC4694 /* SideMenuView.swift */,
+				18CCA29B2992677000AC4694 /* ColorExtension.swift */,
+				18CCA29D299267A000AC4694 /* ProgressLoader.swift */,
+				18CCA29F299267D800AC4694 /* Extention + UserDefault.swift */,
 				18CCA28B299259D600AC4694 /* Assets.xcassets */,
 				18CCA28D299259D600AC4694 /* Preview Content */,
 			);
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18CCA292299259D600AC4694 /* Build configuration list for PBXNativeTarget "FireBaseValidateEmail$Passord" */;
 			buildPhases = (
+				B50544EC42332EA3395C4D97 /* [CP] Check Pods Manifest.lock */,
 				18CCA280299259D400AC4694 /* Sources */,
 				18CCA281299259D400AC4694 /* Frameworks */,
 				18CCA282299259D400AC4694 /* Resources */,
+				DAC4148D08E7BB400D1BB458 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +183,70 @@
 			files = (
 				18CCA28F299259D600AC4694 /* Preview Assets.xcassets in Resources */,
 				18CCA28C299259D600AC4694 /* Assets.xcassets in Resources */,
+				18CCA29629925B5C00AC4694 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B50544EC42332EA3395C4D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireBaseValidateEmail$Passord-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC4148D08E7BB400D1BB458 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireBaseValidateEmail$Passord/Pods-FireBaseValidateEmail$Passord-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireBaseValidateEmail$Passord/Pods-FireBaseValidateEmail$Passord-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FireBaseValidateEmail$Passord/Pods-FireBaseValidateEmail$Passord-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18CCA280299259D400AC4694 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18CCA29A299266D200AC4694 /* LoginViewModel.swift in Sources */,
+				18CCA2982992669C00AC4694 /* LoginView.swift in Sources */,
+				18CCA2A82992689B00AC4694 /* SideMenuView.swift in Sources */,
+				18CCA2AA29926A0100AC4694 /* PasswordField.swift in Sources */,
 				18CCA28A299259D400AC4694 /* ContentView.swift in Sources */,
+				18CCA29E299267A000AC4694 /* ProgressLoader.swift in Sources */,
+				18CCA2A62992687A00AC4694 /* DashboardView.swift in Sources */,
 				18CCA288299259D400AC4694 /* FireBaseValidateEmail_PassordApp.swift in Sources */,
+				18CCA29C2992677000AC4694 /* ColorExtension.swift in Sources */,
+				18CCA2AC29926CAE00AC4694 /* TextFieldClearButton.swift in Sources */,
+				18CCA2A0299267D800AC4694 /* Extention + UserDefault.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +369,7 @@
 		};
 		18CCA293299259D600AC4694 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607D60D514F02363F4388CFF /* Pods-FireBaseValidateEmail$Passord.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +399,7 @@
 		};
 		18CCA294299259D600AC4694 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D532106798F26401706BA54 /* Pods-FireBaseValidateEmail$Passord.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
