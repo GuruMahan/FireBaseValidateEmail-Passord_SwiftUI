@@ -12,50 +12,46 @@ struct SideMenuView: View {
     @Binding var isMenuVisible: Bool
     @State var  isUserInfoShow: Bool = false
     @State var signOutApp = false
-var body: some View {
-   ZStack{
-        
-         ZStack {
-             NavigationLink(isActive: $signOutApp) {
-                 LoginView()
-             } label: {
-                 EmptyView()
-             }
-        GeometryReader{ _ in
-            EmptyView()
-        }
-        .background(Color.black.opacity(0.3))
-        .opacity(isMenuVisible ? 1.0 : 0.0)
-        .animation(Animation.easeIn.delay(0.2))
-        .onTapGesture {
-            isMenuVisible.toggle()
-        }
-        HStack{
-            VStack{
-                profileView
-                    .background(Color.blue)
-                Divider()
-                menuListView
-                Spacer()
+    
+    var body: some View {
+        ZStack{
+            ZStack {
+                NavigationLink(isActive: $signOutApp) {
+                    LoginView()
+                } label: {
+                    EmptyView()
+                }
+                GeometryReader{ _ in
+                    EmptyView()
+                }
+                .background(Color.black.opacity(0.3))
+                .opacity(isMenuVisible ? 1.0 : 0.0)
+                .animation(Animation.easeIn.delay(0.2))
+                .onTapGesture {
+                    isMenuVisible.toggle()
+                }
+                HStack{
+                    VStack{
+                        profileView
+                            .background(Color.blue)
+                        Divider()
+                        menuListView
+                        Spacer()
+                    }
+                    .frame(width: menuWidth)
+                    .background(Color.white)
+                    .offset(x: isMenuVisible ? 0: -menuWidth)
+                    .animation(.default)
+                    Spacer()
+                }
             }
-            .frame(width: menuWidth)
-            .background(Color.white)
-            .offset(x: isMenuVisible ? 0: -menuWidth)
-            .animation(.default)
-            Spacer()
-            
         }
-        
     }
-}
-    }
-   
     
     @ViewBuilder var profileView: some View{
         VStack{
             HStack(alignment: .center){
                 NavigationLink {
-                
                 } label: {
                     Image(systemName: "paperplane.circle")
                         .resizable()
@@ -69,7 +65,6 @@ var body: some View {
                 }
                 userSummaryView
                 Spacer()
- 
             }
             HStack{
                 if isUserInfoShow{
@@ -114,7 +109,6 @@ var body: some View {
                 .foregroundColor(.white)
             Text("EMAIL")
                 .foregroundColor(.white)
-           // Text(viewModel.emailId)
         }
         .font(.system(size: 14))
     }
@@ -193,7 +187,7 @@ var body: some View {
                         if signOutApp{
                             UserDefaults.standard.set(false, forKey: "islogin")
                         }
-                 
+                        
                     } label: {
                         Text("Sign Out")
                             .font(.system(size: 17, weight: .semibold))
@@ -208,7 +202,7 @@ var body: some View {
             }
         }
     }
-
+    
 }
 
 struct SideMenuView_Previews: PreviewProvider {

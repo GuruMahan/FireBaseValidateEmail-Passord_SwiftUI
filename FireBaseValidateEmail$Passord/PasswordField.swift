@@ -12,6 +12,7 @@ struct PasswordField: View {
     @Binding var password: String
     @State var placeHolderText: String = "Enter Password"
     @State private var showandHide = false
+    
     var body: some View {
         VStack {
             HStack {
@@ -20,7 +21,6 @@ struct PasswordField: View {
                 }else {
                     SecureField(placeHolderText, text: $password)
                 }
-                
                 Button {
                     self.showandHide.toggle()
                 } label: {
@@ -33,10 +33,10 @@ struct PasswordField: View {
                 }
             }
             .autocapitalization(.none)
-                                .font(Font.custom("Roboto-Regular", size: 16))
-                                .padding()
-                                .frame(height: 48)
-                                .background(RoundedRectangle(cornerRadius: 5).stroke(Color(hex: "D1D5DB")))
+            .font(Font.custom("Roboto-Regular", size: 16))
+            .padding()
+            .frame(height: 48)
+            .background(RoundedRectangle(cornerRadius: 5).stroke(Color(hex: "D1D5DB")))
         }
     }
 }

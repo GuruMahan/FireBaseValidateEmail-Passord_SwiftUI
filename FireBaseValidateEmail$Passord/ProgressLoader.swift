@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+
 struct ProgressLoader: ViewModifier {
     @Binding var isShowing: Bool
     
@@ -14,7 +15,6 @@ struct ProgressLoader: ViewModifier {
         ZStack(alignment: .center) {
             content
                 .disabled(self.isShowing)
-            
             VStack {
                 ActivityIndicator(isAnimating: .constant(true), style: .large)
             }
@@ -23,7 +23,6 @@ struct ProgressLoader: ViewModifier {
             .foregroundColor(Color.primary)
             .cornerRadius(20)
             .opacity(self.isShowing ? 1 : 0)
-            
         }
     }
 }
